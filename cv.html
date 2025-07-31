@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="public/css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <!-- Header / Navigation Bar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">MyPortfolio</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-image">
+      <img src="public/img/foto_perfil.jpg" alt="A portrait of Ignacio" />
+    </div>
+    <div class="hero-content">
+      <h1>Hello, I'm Ezequiel Arroyo</h1>
+      <p>A passionate web developer building clean and fast websites.</p>
+      <a href="#projects" class="cta-button">View My Work</a>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/EzequielArroyo" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/EzequielArroyo" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a front-end developer who enjoys creating visually appealing and highly performant websites.
+      With a strong foundation in HTML, CSS, and JavaScript, I focus on building user-friendly interfaces
+      that are easy to navigate and pleasant to use. I'm constantly learning and experimenting with new
+      technologies to enhance my craft.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2>Languages & Technologies</h2>
+    <ul class="skills-list">
+      <li class="skill-item">HTML</li>
+      <li class="skill-item">CSS</li>
+      <li class="skill-item">JavaScript</li>
+      <li class="skill-item">Java</li>
+      <li class="skill-item">Python</li>
+      <li class="skill-item">React</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-item">
+        <h3>Project Title</h3>
+        <p>Short description of the project and technologies used.</p>
+        <a href="#">Live Demo</a> | <a href="#">GitHub</a>
+      </div>
+      <!-- Add more project-item divs here -->
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form action="#" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Ezequiel Arroyo. All rights reserved.</p>
+  </footer>
+</body>
+</html>
